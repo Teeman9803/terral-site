@@ -1,0 +1,33 @@
+title: Grav
+author:
+  name: Joe Bloggs
+  email: 'joe@test.com'
+metadata:
+    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+taxonomies: [category, tag, author]
+header: 
+  title: "I'm Terral Lewis"
+  description: 'Professionally coordinate performance based initiatives without high-quality channels. Dramatically engineer multimedia based convergence after enabled communities. Seamlessly recaptiualize sustainable.'
+twitter: 
+  id: '685832332662706176'
+  domId: 'tw-widget1'
+  maxTweets: 3  
+  enableLinks: 'true'
+  showInteraction: 'false'
+  showImages: 'false'  
+  showUser: 'false'
+social: 
+  - url: '#'
+    icon: 'facebook'
+  - url: '#'
+    icon: 'twitter'
+  - url: '#'
+    icon: 'instagram'
+  - url: '#'
+    icon: 'google-plus'
+  - url: '#'
+    icon: 'linkedin'    
+  - url: '#'
+    icon: 'dribbble'    
+  - url: '#'
+    icon: 'behance'
