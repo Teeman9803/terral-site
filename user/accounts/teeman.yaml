@@ -9,3 +9,4 @@ access:
   site:
     login: true
 hashed_password: $2y$10$Xb1xA8cDyGmbArxwA4QKTuvGt2eFbRIufuYJQyllCARDC34YJhzfC
+reset: 'aa7dd9766100a8ff7f51d9f4ff45f95b::1456532208'

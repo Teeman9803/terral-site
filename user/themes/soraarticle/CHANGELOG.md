@@ -1,3 +1,17 @@
+# v1.3.0
+## 01/22/2016
+
+1. [](#bugfix)
+    * Admin Plugin Compatibility
+
+# v1.2.1
+## 12/11/2015
+
+1. [](#bugfix)
+    * Fix form template with nonce support
+    * Support configurable param separator
+
+
 # v1.2.0
 ## 11/12/2015
 
