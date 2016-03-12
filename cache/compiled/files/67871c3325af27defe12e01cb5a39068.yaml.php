@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/user/plugins/admin/languages/sv.yaml',
-    'modified' => 1456431550,
+    'modified' => 1457800020,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'Detta är en betaversion! Använda detta i produktion på egen risk...',

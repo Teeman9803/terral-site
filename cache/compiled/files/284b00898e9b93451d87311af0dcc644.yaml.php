@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/user/plugins/admin/languages/uk.yaml',
-    'modified' => 1456431550,
+    'modified' => 1457800020,
     'data' => [
         'PLUGIN_ADMIN' => [
             'LOGIN_BTN' => 'Увійти',

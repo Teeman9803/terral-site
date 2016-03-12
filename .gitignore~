@@ -1,20 +1,11 @@
  Grav Specific
 .sass-cache
-composer.json
 composer.lock
 cache/*
 assets/*
 logs/*
 images/*
-user/data/
-vendor/≈ç
-LICENSE.txt
-README.md
-system/*
-.htaccess
-CHANGELOG.md
-CONTRIBUTING.md
-robots.txt
+user/data/*
 
 # OS Generated
 .DS_Store*

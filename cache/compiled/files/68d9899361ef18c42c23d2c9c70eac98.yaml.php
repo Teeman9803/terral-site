@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'themes://antimatter/antimatter.yaml',
-    'modified' => 1456431550,
+    'modified' => 1457800021,
     'data' => [
         'enabled' => true,
         'default_lang' => 'en',

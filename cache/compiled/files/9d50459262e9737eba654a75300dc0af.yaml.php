@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/system/languages/es.yaml',
-    'modified' => 1456431550,
+    'modified' => 1457800020,
     'data' => [
         'INFLECTOR_UNCOUNTABLE' => [
             0 => 'equipo',

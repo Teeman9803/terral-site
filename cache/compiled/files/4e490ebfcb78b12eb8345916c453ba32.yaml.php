@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/system/languages/nb.yaml',
-    'modified' => 1456431550,
+    'modified' => 1457800020,
     'data' => [
         'MONTHS_OF_THE_YEAR' => [
             0 => 'januar',
