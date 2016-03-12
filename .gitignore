@@ -6,11 +6,8 @@ cache/*
 assets/*
 logs/*
 images/*
-user/data/*
-vendor/*
-webserver-configs/*
-bin/*
-backup/*
+user/data/
+vendor/≈ç
 LICENSE.txt
 README.md
 system/*
