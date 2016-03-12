@@ -14,6 +14,10 @@ backup/*
 LICENSE.txt
 README.md
 system/*
+.htaccess
+CHANGELOG.md
+CONTRIBUTING.md
+robots.txt
 
 # OS Generated
 .DS_Store*
