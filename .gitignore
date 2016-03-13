@@ -7,7 +7,14 @@ assets/*
 logs/*
 images/*
 user/data/*
+user/accounts/*
 user/plugins/admin
+user/plugins/form
+user/plugins/login
+user/plugins/email
+user/plugins/email/*
+user/config/*
+user/config/
 vendor/*
 webserver-configs/*
 bin/*
