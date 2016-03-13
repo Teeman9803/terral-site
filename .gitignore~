@@ -1,25 +1,2 @@
  Grav Specific
 .sass-cache
-composer.json
-composer.lock
-cache/*
-logs/
-user/data/*
-vendor/*
-webserver-configs/*
-bin/*
-backup/*
-LICENSE.txt
-README.md
-system/*
-.htaccess
-CHANGELOG.md
-CONTRIBUTING.md
-robots.txt
-
-# OS Generated
-.DS_Store*
-ehthumbs.db
-Icon?
-Thumbs.db
-*.swp
