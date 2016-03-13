@@ -2,22 +2,23 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/user/config/system.yaml',
-    'modified' => 1457800062,
+    'modified' => 1457835575,
     'data' => [
-        'absolute_urls' => false,
         'home' => [
             'alias' => '/home'
         ],
         'pages' => [
-            'theme' => 'antimatter',
-            'markdown_extra' => false,
+            'theme' => 'ceevee',
             'process' => [
                 'markdown' => true,
                 'twig' => false
+            ],
+            'markdown' => [
+                'extra' => true
             ]
         ],
         'cache' => [
-            'enabled' => true,
+            'enabled' => false,
             'check' => [
                 'method' => 'file'
             ],
@@ -36,10 +37,6 @@ return [
             'css_rewrite' => true,
             'js_pipeline' => false,
             'js_minify' => true
-        ],
-        'errors' => [
-            'display' => true,
-            'log' => true
         ],
         'debugger' => [
             'enabled' => false,

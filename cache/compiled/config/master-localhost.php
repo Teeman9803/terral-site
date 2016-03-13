@@ -1,29 +1,25 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1457806160,
-    'checksum' => '4384eea1cd7412c71bb1b500da3c73b9',
+    'timestamp' => 1457835680,
+    'checksum' => '10afbd1672d425900ee2e5750277beab',
     'files' => [
         'user/config' => [
-            'media' => [
-                'file' => 'user/config/media.yaml',
-                'modified' => 1457800020
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1456431616
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1457800020
+                'modified' => 1457835367
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1457800020
-            ],
-            'streams' => [
-                'file' => 'user/config/streams.yaml',
-                'modified' => 1457800020
+                'modified' => 1456431616
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1457800062
+                'modified' => 1457835575
             ]
         ],
         'system/config' => [
@@ -45,69 +41,31 @@ return [
             ]
         ],
         'user/plugins' => [
-            'plugins/admin' => [
-                'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1457800020
-            ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1457800021
+                'modified' => 1456431616
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1457800021
+                'modified' => 1456431618
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1457800021
-            ],
-            'plugins/login' => [
-                'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1457800021
+                'modified' => 1456431618
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1457800021
+                'modified' => 1456431618
             ]
         ]
     ],
     'data' => [
         'plugins' => [
-            'admin' => [
-                'enabled' => true,
-                'route' => '/admin',
-                'theme' => 'grav',
-                'dashboard' => [
-                    'days_of_stats' => 7
-                ],
-                'session' => [
-                    'timeout' => 1800
-                ],
-                'warnings' => [
-                    'delete_page' => true
-                ],
-                'edit_mode' => 'normal',
-                'show_github_msg' => true,
-                'google_fonts' => true,
-                'enable_auto_updates_check' => true,
-                'popularity' => [
-                    'enabled' => true,
-                    'ignore' => [
-                        0 => '/test*',
-                        1 => '/modular'
-                    ],
-                    'history' => [
-                        'daily' => 30,
-                        'monthly' => 12,
-                        'visitors' => 20
-                    ]
-                ]
-            ],
             'email' => [
                 'enabled' => true,
-                'from' => NULL,
+                'from' => 'your@email.here',
                 'from_name' => NULL,
-                'to' => NULL,
+                'to' => 'your@email.here',
                 'to_name' => NULL,
                 'mailer' => [
                     'engine' => 'mail',
@@ -140,88 +98,8 @@ return [
                     ]
                 ]
             ],
-            'login' => [
-                'enabled' => true,
-                'built_in_css' => true,
-                'route' => false,
-                'route_register' => false,
-                'route_activate' => '/activate_user',
-                'route_forgot' => '/forgot_password',
-                'route_reset' => '/reset_password',
-                'redirect' => NULL,
-                'parent_acl' => false,
-                'user_registration' => [
-                    'enabled' => true,
-                    'fields' => [
-                        0 => 'username',
-                        1 => 'password',
-                        2 => 'email',
-                        3 => 'fullname',
-                        4 => 'title',
-                        5 => 'access',
-                        6 => 'state'
-                    ],
-                    'additional_params' => [
-                        'access' => 'site.login'
-                    ],
-                    'options' => [
-                        'validate_password1_and_password2' => true,
-                        'set_user_disabled' => false,
-                        'login_after_registration' => true,
-                        'send_activation_email' => false,
-                        'send_notification_email' => false,
-                        'send_welcome_email' => false
-                    ]
-                ],
-                'rememberme' => [
-                    'enabled' => true,
-                    'timeout' => 1800,
-                    'name' => 'grav-rememberme'
-                ],
-                'oauth' => [
-                    'enabled' => false,
-                    'user' => [
-                        'autocreate' => false,
-                        'access' => [
-                            'site' => [
-                                'login' => true
-                            ]
-                        ]
-                    ],
-                    'providers' => [
-                        'Facebook' => [
-                            'enabled' => false,
-                            'credentials' => [
-                                'key' => NULL,
-                                'secret' => NULL
-                            ]
-                        ],
-                        'Google' => [
-                            'enabled' => false,
-                            'credentials' => [
-                                'key' => NULL,
-                                'secret' => NULL
-                            ]
-                        ],
-                        'GitHub' => [
-                            'enabled' => false,
-                            'credentials' => [
-                                'key' => NULL,
-                                'secret' => NULL
-                            ]
-                        ],
-                        'Twitter' => [
-                            'enabled' => false,
-                            'credentials' => [
-                                'key' => NULL,
-                                'secret' => NULL
-                            ]
-                        ]
-                    ]
-                ]
-            ],
             'problems' => [
-                'enabled' => true,
+                'enabled' => false,
                 'built_in_css' => true
             ]
         ],
@@ -468,17 +346,17 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'Free Responsive HTML5/CSS3 Template',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Peter Finla',
+                'email' => 'john@email.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'An exclusive HTML5/CSS3 freebie by Peter Finlan, for Codrops.'
             ],
             'summary' => [
                 'enabled' => true,
@@ -490,6 +368,57 @@ return [
             'routes' => NULL,
             'blog' => [
                 'route' => '/blog'
+            ],
+            'header' => [
+                'title' => 'I\'m Jonathan Doe.',
+                'description' => 'I\'m a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let\'s <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about me</a>.'
+            ],
+            'copyright' => [
+                0 => [
+                    'line' => 'Copyright 2014 CeeVee'
+                ],
+                1 => [
+                    'line' => 'Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a>'
+                ]
+            ],
+            'social' => [
+                0 => [
+                    'url' => '#',
+                    'icon' => 'facebook'
+                ],
+                1 => [
+                    'url' => '#',
+                    'icon' => 'twitter'
+                ],
+                2 => [
+                    'url' => '#',
+                    'icon' => 'google-plus'
+                ],
+                3 => [
+                    'url' => '#',
+                    'icon' => 'linkedin'
+                ],
+                4 => [
+                    'url' => '#',
+                    'icon' => 'instagram'
+                ],
+                5 => [
+                    'url' => '#',
+                    'icon' => 'dribbble'
+                ],
+                6 => [
+                    'url' => '#',
+                    'icon' => 'skype'
+                ]
+            ],
+            'twitter' => [
+                'id' => '657554810648948736',
+                'domId' => 'tw-widget1',
+                'maxTweets' => 3,
+                'enableLinks' => 'true',
+                'showInteraction' => 'false',
+                'showImages' => 'false',
+                'showUser' => 'false'
             ]
         ],
         'streams' => [
@@ -539,7 +468,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'antimatter',
+                'theme' => 'ceevee',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -563,7 +492,7 @@ return [
                     'twig' => true
                 ],
                 'markdown' => [
-                    'extra' => false,
+                    'extra' => true,
                     'auto_line_breaks' => false,
                     'auto_url_links' => false,
                     'escape_markup' => false,
@@ -597,11 +526,10 @@ return [
                     1 => '.idea'
                 ],
                 'ignore_hidden' => true,
-                'url_taxonomy_filters' => true,
-                'markdown_extra' => false
+                'url_taxonomy_filters' => true
             ],
             'cache' => [
-                'enabled' => true,
+                'enabled' => false,
                 'check' => [
                     'method' => 'file'
                 ],
@@ -632,7 +560,7 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => false,
                 'log' => true
             ],
             'debugger' => [
@@ -667,7 +595,7 @@ return [
             ]
         ],
         'security' => [
-            'salt' => 'nAhbGyV4pfF0MH'
+            'salt' => '7SbBrwgEftA2VO'
         ]
     ]
 ];

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/user/plugins/email/languages.yaml',
-    'modified' => 1457800021,
+    'modified' => 1456431616,
     'data' => [
         'en' => [
             'PLUGIN_EMAIL' => [
