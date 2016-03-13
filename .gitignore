@@ -2,9 +2,9 @@
 .sass-cache
 composer.json
 composer.lock
-cache/*
+cache/
 assets/*
-logs/*
+logs/
 images/*
 user/data/*
 user/accounts/*
