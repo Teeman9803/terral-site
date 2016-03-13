@@ -3,7 +3,7 @@
 composer.json
 composer.lock
 cache/*
-logs/*
+logs/
 user/data/*
 vendor/*
 webserver-configs/*
