@@ -7,6 +7,7 @@ assets/*
 logs/*
 images/*
 user/data/*
+user/plugins/admin
 vendor/*
 webserver-configs/*
 bin/*
