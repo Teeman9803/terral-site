@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900');
+
+body {
+	font-family: 'Lato';
+}
+
+#content .slab {
+	position:relative;
+}
+#content section:before {
+  content: '';
+  position: absolute;	
+  width: 100%;
+  height: 71px;
+  top: -32px;
+  left: 0;
+  -webkit-transform: skewY(2.5deg);
+  -moz-transform: skewY(2.5deg);
+  -ms-transform: skewY(2.5deg);
+  -o-transform: skewY(2.5deg);
+  transform: skewY(2.5deg);
+  -webkit-backface-visibility: hidden;		
+}
+#content section .row {
+	margin-top: 26px;
+	margin-bottom: 26px;
+}
+
+/* ------------------------------------------------------------------ */
+/* a. Header Styles
+/* ------------------------------------------------------------------ */
+header {
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/space-wallpapers-3.jpg') no-repeat top center;
+	background-attachment: fixed;
+	margin-bottom:20px;
+}
+header .banner-text h1 {
+   font: 125px/1.1em 'Lato', sans-serif;	
+   font-weight: 900;
+   text-transform: uppercase;
+   text-shadow: none;
+}
+
+header .banner-text h2 {
+   font: 39px/1.1em 'Lato', sans-serif;	
+   font-weight: 300;
+   text-transform: uppercase;
+   text-shadow: none;
+   color: #fff;
+}
+
+header .banner-text h3 {
+   font: 18px/1.1em 'Lato', sans-serif;	
+   text-shadow: none;
+}
+
+ul#nav { 
+
+}
+
+ul#nav li.current { 
+	background-color: #F06000; 
+}
+ul#nav li.current a { 
+	color: #FFF; 
+}
+
+#nav-wrap {
+   font: 12px 'Lato', sans-serif;
+   font-weight:800;
+ }
+ 
+ header .banner-text hr {
+   border-color: rgba(150, 150, 150, .75);
+}
+
+/* ------------------------------------------------------------------ */
+/* b. About Styles
+/* ------------------------------------------------------------------ */
+
+#about {
+	background: #1b1b1b;
+	padding-top: 60px;
+	padding-bottom: 60px
+}
+
+#about:before {
+   background: #1b1b1b;
+  -webkit-transform: skewY(0deg) !important;
+  -moz-transform: skewY(0deg) !important;
+  -ms-transform: skewY(0deg) !important;
+  -o-transform: skewY(0deg) !important;
+  transform: skewY(0deg) !important;   
+}
+
+#about .row {
+	margin-top:0;
+	margin-bottom: 0;
+}
+
+#about h2 {
+    font: 22px/30px 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+#about .download {
+	width: 100%;
+}
+
+#about .download .button {
+	background-color: #f06000;
+	border-radius: 0;
+}
+#about .profile-pic {
+   width: 200px;
+   height: 200px;
+   margin-bottom: 16px;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* c. Resume Styles
+/* ------------------------------------------------------------------ */
+#resume:before {
+  background: #fff;
+}
+#resume h3 {
+	font: 25px/28px 'Lato', sans-serif;
+}
+#resume .header-col {
+    background: #000;
+    color: #fff;
+}
+#resume .info {
+    font: 16px/24px 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #f06000;
+    opacity: .65;
+}
+#resume h1 span {
+    color: #fff;
+    border: none;
+}
+#resume p {
+	color: #000;
+	opacity: .7;
+}
+
+
+/*----------------------------------------------*/
+/*	Skill Bars
+/*----------------------------------------------*/
+
+.bars li,
+.bar-expand {
+  	height: 12px;
+}
+.bar-expand {
+  	background: #f06000;
+}
+.bars li em {
+	font: 15px 'Lato', sans-serif
+}
+
+/*----------------------------------------------*/
+/*	Portfolid
+/*----------------------------------------------*/
+#portfolio:before {
+  background: #ebeeee; 
+}
+
+#portfolio h1 {
+	color: #333;
+}
+
+/*----------------------------------------------*/
+/*	Testimonials
+/*----------------------------------------------*/
+#testimonials {
+		background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('https://pixabay.com/static/uploads/photo/2015/02/13/14/40/sunglasses-635269_960_720.jpg') no-repeat top center;
+			-webkit-background-size: cover !important;
+   background-attachment: fixed;
+ }
+ 
+ #testimonials:before {
+  background: #ebeeee;
+}
+
+#testimonials .columns {
+	margin: 90px 0;
+}
+
+
+/*----------------------------------------------*/
+/*	Contact
+/*----------------------------------------------*/
+#contact {
+	background: #1b1b1b;
+}
+
+#contact:before {
+  background: #1b1b1b;
+}
+
+#contact button.button {
+	background-color: #f06000;	
+	border-radius: 0;
+}
+

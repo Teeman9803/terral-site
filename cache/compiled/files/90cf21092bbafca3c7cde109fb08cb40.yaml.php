@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/user/config/site.yaml',
-    'modified' => 1457898784,
+    'modified' => 1458993148,
     'data' => [
         'title' => 'Free Responsive HTML5/CSS3 Template',
         'author' => [
@@ -12,8 +12,9 @@ return [
             'description' => 'An exclusive HTML5/CSS3 freebie by Peter Finlan, for Codrops.'
         ],
         'header' => [
-            'title' => 'I\'m Terral Lewis.',
-            'description' => 'I\'m a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let\'s <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about me</a>.'
+            'title' => 'I\'m Terral',
+            'whatido' => 'I Design and Develop for the web.',
+            'description' => NULL
         ],
         'copyright' => [
             0 => [

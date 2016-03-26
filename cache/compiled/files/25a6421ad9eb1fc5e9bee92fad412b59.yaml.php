@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/user/config/system.yaml',
-    'modified' => 1457897037,
+    'modified' => 1458697848,
     'data' => [
         'home' => [
             'alias' => '/home'
         ],
         'pages' => [
-            'theme' => 'ceevee',
+            'theme' => 'terrallewis',
             'process' => [
                 'markdown' => true,
                 'twig' => false

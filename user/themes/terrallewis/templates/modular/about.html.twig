@@ -1,0 +1,23 @@
+<div class="slab">
+	<section id="about">
+	    <div class="row text-center wow bounceInLeft" data-wow-delay=".25s">
+	        <div class="twelve columns main-col">
+		        <div>
+		            <img src="{{ page.media.images['profilepic.jpg'].url }}" alt=""  class="profile-pic" />
+		        </div>        
+	            {{ page.content }}
+	            <div class="row">
+	                {% if page.header.buttons %}
+	                <div class="columns download">
+	                    <p>
+	                        {% for button in page.header.buttons %}
+	                            <a href="{{ button.url }}" class="button"><i class="fa fa-{{ button.icon }}"></i>{{ button.text }}</a>
+	                        {% endfor %}
+	                    </p>
+	                </div>
+	                {% endif %}
+	            </div>
+	        </div>
+	    </div>
+	</section>
+</div>

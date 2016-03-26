@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1457898822,
-    'checksum' => '1d47900c319b0d4d1f81afea057a976d',
+    'timestamp' => 1458993184,
+    'checksum' => '577d36c173c4b97ce5720c956bff7cab',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1457898784
+                'modified' => 1458993148
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -27,7 +27,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1457897037
+                'modified' => 1458697848
             ]
         ],
         'system/config' => [
@@ -496,8 +496,9 @@ return [
                 'route' => '/blog'
             ],
             'header' => [
-                'title' => 'I\'m Terral Lewis.',
-                'description' => 'I\'m a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and effective visual identities for companies of all sizes around the globe. Let\'s <a class="smoothscroll" href="#about">start scrolling</a> and learn more <a class="smoothscroll" href="#about">about me</a>.'
+                'title' => 'I\'m Terral',
+                'whatido' => 'I Design and Develop for the web.',
+                'description' => NULL
             ],
             'copyright' => [
                 0 => [
@@ -594,7 +595,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'ceevee',
+                'theme' => 'terrallewis',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'

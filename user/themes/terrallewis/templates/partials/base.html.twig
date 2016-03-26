@@ -12,8 +12,10 @@
          {% block stylesheets %}
                 {% do assets.addCss('theme://css/default.css') %}
                 {% do assets.addCss('theme://css/layout.css') %}
+                {% do assets.addCss('theme://css/terrallewis.css') %}                
                 {% do assets.addCss('theme://css/media-queries.css') %}
                 {% do assets.addCss('theme://css/magnific-popup.css') %}
+				{% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.css') %}                     
         {% endblock %}
         {{ assets.css() }}
         <script src="{{ url('theme://js/modernizr.js') }}"></script>
@@ -38,6 +40,7 @@
             {% do assets.addJs('theme://js/jquery.fittext.js') %}
             {% do assets.addJs('theme://js/magnific-popup.js') %}
             {% do assets.addJs('theme://js/init.js') %}
+            {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js') %}            
             {% include 'partials/twFetcher.html.twig' %}
         {% endblock %}
         {{ assets.js() }}

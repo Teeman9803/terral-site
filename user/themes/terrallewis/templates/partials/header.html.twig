@@ -2,10 +2,10 @@
   {% block navigation %}
   {% include 'partials/navigation.html.twig' %}
   {% endblock %}
-  <div class="row banner">
+  <div class="row banner wow bounceInUp" data-wow-delay=".25s">
     <div class="banner-text">
-      <h1 class="responsive-headline">{{ site.header.title }}</h1>
-      <h3>{{ site.header.description }}</h3>
+      <h1 class="headline">{{ site.header.title }}</h1>
+      <h2>{{ site.header.whatido }}</h2>
       <hr />
       {% if site.social %}
       <ul class="social">
