@@ -1,11 +1,13 @@
 <div class="slab">
 	<section id="about">
-	    <div class="row text-center wow bounceInLeft" data-wow-delay=".25s">
-	        <div class="twelve columns main-col">
+	    <div class="row">
+	        <div class="three columns wow bounceInLeft" data-wow-delay=".25s">
 		        <div>
 		            <img src="{{ page.media.images['profilepic.jpg'].url }}" alt=""  class="profile-pic" />
 		        </div>        
-	            {{ page.content }}
+	        </div>
+	        <div class="nine columns main-col wow bounceInRight" data-wow-delay=".25s">
+	            {{ page.content }}	        
 	            <div class="row">
 	                {% if page.header.buttons %}
 	                <div class="columns download">

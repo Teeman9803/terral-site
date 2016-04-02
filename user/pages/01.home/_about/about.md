@@ -10,16 +10,6 @@ address:
         line: 'Mountain View, CA 94043 US'
     -
         line: (123)456-7890
-email:
-    -
-        address: anyone@website.com
-buttons:
-    -
-        url: '#'
-        icon: download
-        text: 'Download Resume'
 ---
 
-## About Me
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Conveniently procrastinate client-centric channels through stand-alone e-services. Interactively facilitate visionary web services rather than client-based core competencies. Dynamically morph accurate technology without professional meta-services. Enthusiastically iterate high standards in potentialities rather than long-term high-impact e-business. Credibly unleash viral methods of empowerment with economically sound leadership. Synergistically harness dynamic ROI through business e-services. Synergistically fabricate cross-media resources vis-a-vis equity invested "outside the box" thinking. Enthusiastically leverage other's team driven web-readiness whereas focused vortals. Credibly fabricate fully researched results after standardized markets. Continually productivate highly efficient.
