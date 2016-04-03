@@ -120,7 +120,7 @@ ul#nav li.current a {
 
 .bars li,
 .bar-expand {
-  	height: 4px;
+  	height: 7px;
 }
 .bars li {
 	background: #fff;
@@ -141,12 +141,20 @@ ul#nav li.current a {
 	color: #333;
 	font: 22px/24px 'Lato', sans-serif;
 }
+#portfolio .item-wrap,
+#portfolio .item-wrap .overlay {
+	border-radius: 50%;
+}
+.portfolio-item .portfolio-item-meta {
+	margin-top: 30px;
+	text-align: center;
+}
 
 /*----------------------------------------------*/
 /*	Testimonials
 /*----------------------------------------------*/
 #testimonials {
-		background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('https://pixabay.com/static/uploads/photo/2015/02/13/14/40/sunglasses-635269_960_720.jpg') no-repeat top center;
+		background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('http://res.cloudinary.com/shapemindsoul/image/upload/v1450115377/j0syunjlg4kmtnchvas0.jpg') no-repeat top center;
 			-webkit-background-size: cover !important;
    background-attachment: fixed;
  }
