@@ -12,7 +12,7 @@ body {
 /* a. Header Styles
 /* ------------------------------------------------------------------ */
 header {
-background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/space-wallpapers-3.jpg') no-repeat top center;
+background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url('../images/header-background-current.jpg') no-repeat top center;
 	background-attachment: fixed;
 }
 header .banner-text h1 {
@@ -35,21 +35,25 @@ header .banner-text h3 {
    text-shadow: none;
 }
 
-ul#nav li.current { 
-	background-color: #F06000; 
-}
-ul#nav li.current a { 
-	color: #FFF; 
+header .social li a:hover,
+header .scrolldown a:hover {
+	color: #f06000;
 }
 
 #nav-wrap {
    font: 12px 'Lato', sans-serif;
    font-weight:800;
  }
+
+.opaque {
+	background: #1b1b1b;
+}
  
  header .banner-text hr {
    border-color: rgba(150, 150, 150, .75);
+	 width: 69%;
 }
+
 
 /* ------------------------------------------------------------------ */
 /* b. About Styles
@@ -154,7 +158,7 @@ ul#nav li.current a {
 /*	Testimonials
 /*----------------------------------------------*/
 #testimonials {
-		background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('http://res.cloudinary.com/shapemindsoul/image/upload/v1450115377/j0syunjlg4kmtnchvas0.jpg') no-repeat top center;
+		background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../images/quotes-code.jpg') no-repeat top center;
 			-webkit-background-size: cover !important;
    background-attachment: fixed;
  }
@@ -168,7 +172,44 @@ ul#nav li.current a {
 }
 
 #contact button.button {
-	background-color: #f06000;	
-	border-radius: 0;
+	background-color: #f06000;
+	border-radius: 30px;
+	font: 16px/30px 'Lato', sans-serif;
 }
 
+#contact input,
+#contact textarea,
+#contact select {
+	transition: background .33s ease-in-out;
+	-webkit-transition: background .33s ease-in-out;
+	-moz-transition: background .33s ease-in-out;
+	background: #222;
+}
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+	transition: background .33s ease-in-out;
+	-webkit-transition: background .33s ease-in-out;
+	-moz-transition: background .33s ease-in-out;
+	background: #f06000;
+	color: #fff;
+}
+
+#contact span.required {
+	color: #f06000;
+}
+
+#contact .lead > p {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+footer a:hover, 
+footer a:focus {
+	color: #f06000;
+}
+
+#go-top a:hover {
+	background: #f06000;
+}
