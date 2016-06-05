@@ -1,53 +1,70 @@
 ---
 title: Portfolio
 portfolio:
-  - title: "Coffee Cup"
-    description: Illustration
-    img: coffee.jpg
-    content: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
-    tags: Branding, Web Development
-    details: http://www.behance.net
-  - title: "Console"
-    description: Web Development
-    img: console.jpg
-    content: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
-    tags: Branding, Web Development
-    details: http://www.behance.net
-  - title: "Judah"
-    description: Webdesign
-    img: judah.jpg
-    content: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
-    tags: Branding
-    details: http://www.behance.net
-  - title: "Into The Light"
-    description: Photography
-    img: intothelight.jpg
-    content: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
-    tags: Photography    
-    details: http://www.behance.net
-  - title: "Farmer Boy"
-    description: Branding
-    img: farmerboy.jpg
-    content: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
-    tags: Branding, Webdesign   
-    details: http://www.behance.net
-  - title: "Girl"
-    description: Photography
-    img: girl.jpg
-    content: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
-    tags: Photography
-    details: http://www.behance.net
-  - title: "Origami"
-    description: Illustration
-    img: origami.jpg
-    content: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
-    tags: Branding, Illustration  
-    details: http://www.behance.net
-  - title: "Retrocam"
-    description: Web Development
-    img: retrocam.jpg
-    content: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit."
-    tags: Webdesign, Photography   
-    details: http://www.behance.net   
+    -
+        title: 'Business Template'
+        description: 'Website Development'
+        img: Business-Template-Portfolio.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: 'Webdesign, Templates'
+        details: 'http://www.behance.net'
+    -
+        title: 'Contractors Resource Center'
+        description: 'Website Development'
+        img: CRC-Portfolio.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: Webdesign
+        details: 'http://www.behance.net'
+    -
+        title: 'Law Template'
+        description: 'Website Development'
+        img: Johnny-Law-Portfolio.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: 'Webdesign, Templates'
+        details: 'http://www.behance.net'
+    -
+        title: 'Outlook International'
+        description: 'Website Development'
+        img: Outlook-Portfolio.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: 'Webdesign, Templates'
+        details: 'http://www.behance.net'
+    -
+        title: 'Keenan Lewis Official Website'
+        description: 'Website Development'
+        img: Keenan-Lewis-Portfolio.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: Webdesign
+        details: 'http://www.behance.net'
+    -
+        title: 'A1 Stucco'
+        description: 'Business Card/Logo'
+        img: ac-stucco-biz-card-back.png
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: 'Graphicdesign, Logo, Business Card'
+        details: 'http://www.behance.net'
+    -
+        title: 'Handout/Corporate Flyer'
+        description: Handout
+        img: Sept-2015-Handout-Portfolio.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: Graphicdesign
+        details: 'http://www.behance.net'
+    -
+        title: 'Armed with Age'
+        description: Presentation
+        img: March-2016-Portfolio.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: Graphicdesign
+        details: 'http://www.behance.net'
+    -
+        title: 'Sleep Well Toolkit'
+        description: Booklet
+        img: SWTK-Portfolio.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: Graphicdesign
+        details: 'http://www.behance.net'
 ---
+
 #Check Out Some of My Works.
+
