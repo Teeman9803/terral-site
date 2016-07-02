@@ -2,6 +2,13 @@
 title: Portfolio
 portfolio:
     -
+        title: 'Keenan Lewis Official Website'
+        description: 'Website Development'
+        img: Keenan-Lewis-Portfolio.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: Webdesign
+        details: 'http://www.behance.net'
+    -
         title: 'Business Template'
         description: 'Website Development'
         img: Business-Template-Portfolio.jpg
@@ -30,13 +37,6 @@ portfolio:
         tags: 'Webdesign, Templates'
         details: 'http://www.behance.net'
     -
-        title: 'Keenan Lewis Official Website'
-        description: 'Website Development'
-        img: Keenan-Lewis-Portfolio.jpg
-        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
-        tags: Webdesign
-        details: 'http://www.behance.net'
-    -
         title: 'A1 Stucco'
         description: 'Business Card/Logo'
         img: ac-stucco-biz-card-back.png
@@ -63,6 +63,20 @@ portfolio:
         img: SWTK-Portfolio.jpg
         content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
         tags: Graphicdesign
+        details: 'http://www.behance.net'
+    -
+        title: 'Club Flyer'
+        description: Flyer
+        img: Club-Flyer.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: Graphicdesign
+        details: 'http://www.behance.net'
+    -
+        title: 'Baby Shower Invitation'
+        description: Invitations
+        img: Nae-Flyer.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: 'Graphicdesign, Invitations'
         details: 'http://www.behance.net'
 ---
 
