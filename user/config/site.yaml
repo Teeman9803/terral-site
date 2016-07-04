@@ -1,8 +1,8 @@
-title: Free Responsive HTML5/CSS3 Template
+title: Terral Lewis' Website
 author:
-  name: Peter Finla
+  name: Terral Lewis
 metadata:
-    description: 'An exclusive HTML5/CSS3 freebie by Peter Finlan, for Codrops.'
+    description: 'Personal website for Terral Lewis'
 
 # Header customization
 header:
@@ -34,7 +34,7 @@ social:
 # Use this as your ID below instead!
 
 twitter:
-  id: '657554810648948736' # Your widget ID
+  id: 749250541969170432 # Your widget ID
   domId: 'tw-widget1' # HTML ID used in code
   maxTweets: 3 # How many tweets to display
   enableLinks: 'true' # Enable links

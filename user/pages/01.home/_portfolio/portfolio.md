@@ -16,13 +16,6 @@ portfolio:
         tags: 'Webdesign, Templates'
         details: 'http://www.behance.net'
     -
-        title: 'Contractors Resource Center'
-        description: 'Website Development'
-        img: CRC-Portfolio.jpg
-        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
-        tags: Webdesign
-        details: 'http://www.behance.net'
-    -
         title: 'Law Template'
         description: 'Website Development'
         img: Johnny-Law-Portfolio.jpg
@@ -35,6 +28,13 @@ portfolio:
         img: Outlook-Portfolio.jpg
         content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
         tags: 'Webdesign, Templates'
+        details: 'http://www.behance.net'
+    -
+        title: 'Tulane University'
+        description: 'Graphic Design'
+        img: Tulane-Logo.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: 'Graphic Design, Logo Design'
         details: 'http://www.behance.net'
     -
         title: 'A1 Stucco'
@@ -77,6 +77,13 @@ portfolio:
         img: Nae-Flyer.jpg
         content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
         tags: 'Graphicdesign, Invitations'
+        details: 'http://www.behance.net'
+    -
+        title: 'Nourish Cafe'
+        description: 'Graphic Design'
+        img: NourishCafe.jpg
+        content: 'Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.'
+        tags: 'Graphic Design, Logo Design'
         details: 'http://www.behance.net'
 ---
 
