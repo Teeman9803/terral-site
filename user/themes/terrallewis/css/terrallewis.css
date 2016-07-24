@@ -14,6 +14,7 @@ body {
 header {
 background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/header-background-current.jpg') no-repeat top center;
 	background-attachment: fixed;
+	background-size: cover !important;
 }
 header .banner-text h1 {
    font: 125px/1.1em 'Lato', sans-serif;	
@@ -226,7 +227,6 @@ header .scrolldown a:hover {
 #contact .lead > p {
 	font-size: 22px;
 	font-weight: 300;
-	text-align: center;
 }
 
 
