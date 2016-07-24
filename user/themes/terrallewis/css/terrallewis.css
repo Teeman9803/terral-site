@@ -170,7 +170,7 @@ header .scrolldown a:hover {
 /*----------------------------------------------*/
 #testimonials {
 		background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../images/quotes-code.jpg') no-repeat top center;
-			-webkit-background-size: cover !important;
+		background-size: cover !important;
    background-attachment: fixed;
  }
 
@@ -211,6 +211,14 @@ header .scrolldown a:hover {
 	color: #fff;
 }
 
+@media only screen and (max-width: 767px) {
+	#contact textarea {
+		margin-bottom: 12px !important;
+	}
+	#contact button.button {
+		margin-left: 0 !important;
+	}
+}
 #contact span.required {
 	color: #f06000;
 }
