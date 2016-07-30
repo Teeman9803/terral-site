@@ -3,7 +3,7 @@ title: Ceevee
 menu: home
 
 form:
-    name: my-nice-form
+    name: contact-form
     action: /home
     fields:
         - name: name

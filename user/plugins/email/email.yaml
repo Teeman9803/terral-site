@@ -1,8 +1,8 @@
 enabled: true
-from:
-from_name:
-to:
-to_name:
+from: {{form.value.email}}
+from_name: {{form.value.name}}
+to: 'tldesignsprintandweb@gmail.com'
+to_name: 'Terral Lewis'
 mailer:
   engine: mail
   smtp:
