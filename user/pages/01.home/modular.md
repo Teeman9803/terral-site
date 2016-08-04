@@ -1,5 +1,5 @@
 ---
-title: Ceevee
+title: Terral Lewis, Frontend Developer/Graphic Designer
 menu: home
 
 form:
