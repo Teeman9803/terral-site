@@ -1,6 +1,6 @@
 enabled: true
-from: {{form.value.email}}
-from_name: {{form.value.name}}
+from: "{{form.value.email}}"
+from_name: "{{form.value.name}}"
 to: 'tldesignsprintandweb@gmail.com'
 to_name: 'Terral Lewis'
 mailer:
