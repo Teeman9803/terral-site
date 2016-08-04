@@ -1,5 +1,5 @@
 ---
-title: Terral Lewis, Frontend Developer/Graphic Designer
+title: Terral Lewis | Frontend Developer/Graphic Designer
 menu: home
 
 form:
@@ -62,6 +62,6 @@ content:
             - _resume
             - _portfolio
             - _call
-            - _testimonials
+            - _quotes
             - _contact
 ---

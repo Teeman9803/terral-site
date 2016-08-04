@@ -168,7 +168,7 @@ header .scrolldown a:hover {
 /*----------------------------------------------*/
 /*	Testimonials
 /*----------------------------------------------*/
-#testimonials {
+#quotes {
 		background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url('../images/quotes-code.jpg') no-repeat top center;
 		background-size: cover !important;
    background-attachment: fixed;

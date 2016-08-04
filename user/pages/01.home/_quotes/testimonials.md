@@ -1,5 +1,5 @@
 ---
-title: Testimonials
+title: Quotes
 testimonials:
     -
         author: 'Steve Jobs'
