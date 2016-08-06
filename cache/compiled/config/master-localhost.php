@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1458993184,
-    'checksum' => '577d36c173c4b97ce5720c956bff7cab',
+    'timestamp' => 1470450151,
+    'checksum' => '42d821597ab02d3212b4ce045cb7818c',
     'files' => [
         'user/config' => [
             'media' => [
@@ -13,13 +13,17 @@ return [
                 'file' => 'user/config/plugins/email.yaml',
                 'modified' => 1456431616
             ],
+            'plugins/form' => [
+                'file' => 'user/config/plugins/form.yaml',
+                'modified' => 1469874612
+            ],
             'security' => [
                 'file' => 'user/config/security.yaml',
                 'modified' => 1457835367
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1458993148
+                'modified' => 1470450021
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -27,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1458697848
+                'modified' => 1459003800
             ]
         ],
         'system/config' => [
@@ -55,7 +59,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1457897034
+                'modified' => 1470272030
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -110,9 +114,9 @@ return [
             'email' => [
                 'enabled' => true,
                 'from' => 'your@email.here',
-                'from_name' => NULL,
+                'from_name' => '{{form.value.name}}',
                 'to' => 'your@email.here',
-                'to_name' => NULL,
+                'to_name' => 'Terral Lewis',
                 'mailer' => [
                     'engine' => 'mail',
                     'smtp' => [
@@ -472,17 +476,18 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Free Responsive HTML5/CSS3 Template',
+            'title' => 'Terral Lewis | Frontend Developer/Graphic Designer',
             'author' => [
-                'name' => 'Peter Finla',
-                'email' => 'john@email.com'
+                'name' => 'Terral Lewis',
+                'email' => 'tldesignsprintandweb@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'An exclusive HTML5/CSS3 freebie by Peter Finlan, for Codrops.'
+                'description' => 'Personal website for web developer and graphic designer Terral Lewis',
+                'keywords' => 'design, development, develop, branding, marketing, best web design, best web development, best graphic design, frontend developer, frontend development, web design, web development, dc web developer, virginia web developer, maryland web developer, dc graphic designer, maryland graphic designer, virginia web designer, web design, web development, graphic design, digital design, print design, logos, web applications, web apps, web design, ui/ux designer, user experience design, ux, ui, web developer, graphic designer, user centered, javascript, wordpress, css, html, git, angularjs, node, php, adobe creative suite, photoshop, illustrator, indesign, website templates, templates, business templates, flyers, corporate flyers, booklet design, booklets, logos, invitations'
             ],
             'summary' => [
                 'enabled' => true,
@@ -497,49 +502,34 @@ return [
             ],
             'header' => [
                 'title' => 'I\'m Terral',
-                'whatido' => 'I Design and Develop for the web.',
+                'whatido' => 'I Design and Develop for the web and beyond.',
                 'description' => NULL
             ],
             'copyright' => [
                 0 => [
-                    'line' => 'Copyright 2014 CeeVee'
-                ],
-                1 => [
-                    'line' => 'Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a>'
+                    'line' => 'Copyright 2016 Terral Lewis'
                 ]
             ],
             'social' => [
                 0 => [
-                    'url' => '#',
+                    'url' => 'http://www.facebook.com/tldesignseverything',
                     'icon' => 'facebook'
                 ],
                 1 => [
-                    'url' => '#',
+                    'url' => 'http://www.twitter.com/tldesigns_4u',
                     'icon' => 'twitter'
                 ],
                 2 => [
-                    'url' => '#',
-                    'icon' => 'google-plus'
+                    'url' => 'http://www.behance.net/terrallewis',
+                    'icon' => 'behance'
                 ],
                 3 => [
-                    'url' => '#',
-                    'icon' => 'linkedin'
-                ],
-                4 => [
-                    'url' => '#',
+                    'url' => 'http://www.instagram.com/tldesigns_everything',
                     'icon' => 'instagram'
-                ],
-                5 => [
-                    'url' => '#',
-                    'icon' => 'dribbble'
-                ],
-                6 => [
-                    'url' => '#',
-                    'icon' => 'skype'
                 ]
             ],
             'twitter' => [
-                'id' => '657554810648948736',
+                'id' => 749250541969170432,
                 'domId' => 'tw-widget1',
                 'maxTweets' => 3,
                 'enableLinks' => 'true',

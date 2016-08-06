@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/user/plugins/email/email.yaml',
-    'modified' => 1457897034,
+    'modified' => 1470272030,
     'data' => [
         'enabled' => true,
-        'from' => NULL,
-        'from_name' => NULL,
-        'to' => NULL,
-        'to_name' => NULL,
+        'from' => '{{form.value.email}}',
+        'from_name' => '{{form.value.name}}',
+        'to' => 'tldesignsprintandweb@gmail.com',
+        'to_name' => 'Terral Lewis',
         'mailer' => [
             'engine' => 'mail',
             'smtp' => [

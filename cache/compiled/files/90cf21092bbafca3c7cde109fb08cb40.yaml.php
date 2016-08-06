@@ -2,60 +2,60 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Applications/MAMP/htdocs/terrallewis/user/config/site.yaml',
-    'modified' => 1458993148,
+    'modified' => 1470450021,
     'data' => [
-        'title' => 'Free Responsive HTML5/CSS3 Template',
+        'title' => 'Terral Lewis | Frontend Developer/Graphic Designer',
         'author' => [
-            'name' => 'Peter Finla'
+            'name' => 'Terral Lewis',
+            'email' => 'tldesignsprintandweb@gmail.com'
+        ],
+        'taxonomies' => [
+            0 => 'category',
+            1 => 'tag'
         ],
         'metadata' => [
-            'description' => 'An exclusive HTML5/CSS3 freebie by Peter Finlan, for Codrops.'
+            'description' => 'Personal website for web developer and graphic designer Terral Lewis',
+            'keywords' => 'design, development, develop, branding, marketing, best web design, best web development, best graphic design, frontend developer, frontend development, web design, web development, dc web developer, virginia web developer, maryland web developer, dc graphic designer, maryland graphic designer, virginia web designer, web design, web development, graphic design, digital design, print design, logos, web applications, web apps, web design, ui/ux designer, user experience design, ux, ui, web developer, graphic designer, user centered, javascript, wordpress, css, html, git, angularjs, node, php, adobe creative suite, photoshop, illustrator, indesign, website templates, templates, business templates, flyers, corporate flyers, booklet design, booklets, logos, invitations'
+        ],
+        'summary' => [
+            'enabled' => true,
+            'format' => 'short',
+            'size' => 300,
+            'delimiter' => '==='
+        ],
+        'blog' => [
+            'route' => '/blog'
         ],
         'header' => [
             'title' => 'I\'m Terral',
-            'whatido' => 'I Design and Develop for the web.',
+            'whatido' => 'I Design and Develop for the web and beyond.',
             'description' => NULL
         ],
         'copyright' => [
             0 => [
-                'line' => 'Copyright 2014 CeeVee'
-            ],
-            1 => [
-                'line' => 'Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a>'
+                'line' => 'Copyright 2016 Terral Lewis'
             ]
         ],
         'social' => [
             0 => [
-                'url' => '#',
+                'url' => 'http://www.facebook.com/tldesignseverything',
                 'icon' => 'facebook'
             ],
             1 => [
-                'url' => '#',
+                'url' => 'http://www.twitter.com/tldesigns_4u',
                 'icon' => 'twitter'
             ],
             2 => [
-                'url' => '#',
-                'icon' => 'google-plus'
+                'url' => 'http://www.behance.net/terrallewis',
+                'icon' => 'behance'
             ],
             3 => [
-                'url' => '#',
-                'icon' => 'linkedin'
-            ],
-            4 => [
-                'url' => '#',
+                'url' => 'http://www.instagram.com/tldesigns_everything',
                 'icon' => 'instagram'
-            ],
-            5 => [
-                'url' => '#',
-                'icon' => 'dribbble'
-            ],
-            6 => [
-                'url' => '#',
-                'icon' => 'skype'
             ]
         ],
         'twitter' => [
-            'id' => '657554810648948736',
+            'id' => 749250541969170432,
             'domId' => 'tw-widget1',
             'maxTweets' => 3,
             'enableLinks' => 'true',
