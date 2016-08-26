@@ -67,6 +67,14 @@ header .scrolldown a:hover {
 	background: #DE5D07;
 }
 
+#about a {
+	text-decoration: underline;
+}
+
+#about a:hover {
+	color: #1b1b1b;
+}
+
 #about p {
 	font-size: 18px;
 	color: #fff;
