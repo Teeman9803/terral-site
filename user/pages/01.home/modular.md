@@ -12,7 +12,6 @@ form:
           type: text
           validate:
             required: true
-
         - name: email
           label: Email
           placeholder: Enter your email address
@@ -20,7 +19,6 @@ form:
           validate:
             rule: email
             required: true
-
         - name: message
           label: Message
           size: long
@@ -28,18 +26,14 @@ form:
           type: textarea
           validate:
             required: true
-
     buttons:
         - type: submit
           value: Submit
           class: submit
-
     process:
         - email:
-            from: "{{ config.plugins.email.from }}"
-            to:
-              - "{{ config.plugins.email.to }}"
-              - "{{ form.value.email }}"
+            from: "{{ form.value.email }}"
+            to: "{{ config.plugins.email.to }}"
             subject: "[Feedback] {{ form.value.name|e }}"
             body: "{% include 'forms/data.html.twig' %}"
         - save:

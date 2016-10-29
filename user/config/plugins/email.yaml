@@ -1,6 +1,6 @@
 enabled: true
-from: your@email.here
-to: your@email.here
+from: tldesignsprintandweb@gmail.com
+to: tldesignsprintandweb@gmail.com
 mailer:
   engine: mail
   smtp:
