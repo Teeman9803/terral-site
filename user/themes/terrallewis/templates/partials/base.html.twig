@@ -8,6 +8,7 @@
         <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
         {% include 'partials/metadata.html.twig' %}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="icon" type="image/png" href="{{ base_url_simple }}/{{ theme_url }}/images/favicon.png">
          {% block stylesheets %}
                 {% do assets.addCss('theme://css/default.css') %}
                 {% do assets.addCss('theme://css/layout.css') %}
@@ -39,7 +40,7 @@
             {% do assets.addJs('theme://js/jquery.fittext.js') %}
             {% do assets.addJs('theme://js/magnific-popup.js') %}
             {% do assets.addJs('theme://js/init.js') %}
-            {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js') %}            
+            {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js') %}
             {% include 'partials/twFetcher.html.twig' %}
             <script>
                 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
