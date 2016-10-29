@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1470450151,
-    'checksum' => '42d821597ab02d3212b4ce045cb7818c',
+    'timestamp' => 1477727685,
+    'checksum' => '6ef411bd3030d7a08164def617e470e1',
     'files' => [
         'user/config' => [
             'media' => [
@@ -23,7 +23,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1470450021
+                'modified' => 1471570782
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -476,7 +476,7 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Terral Lewis | Frontend Developer/Graphic Designer',
+            'title' => 'Terral Lewis - Frontend Developer/Graphic Designer',
             'author' => [
                 'name' => 'Terral Lewis',
                 'email' => 'tldesignsprintandweb@gmail.com'
@@ -486,8 +486,8 @@ return [
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Personal website for web developer and graphic designer Terral Lewis',
-                'keywords' => 'design, development, develop, branding, marketing, best web design, best web development, best graphic design, frontend developer, frontend development, web design, web development, dc web developer, virginia web developer, maryland web developer, dc graphic designer, maryland graphic designer, virginia web designer, web design, web development, graphic design, digital design, print design, logos, web applications, web apps, web design, ui/ux designer, user experience design, ux, ui, web developer, graphic designer, user centered, javascript, wordpress, css, html, git, angularjs, node, php, adobe creative suite, photoshop, illustrator, indesign, website templates, templates, business templates, flyers, corporate flyers, booklet design, booklets, logos, invitations'
+                'description' => 'Personal website for frontend web developer and graphic designer Terral Lewis. Maryland, Virginia, DC, Branding, Graphic Design, Strategy, User Experience, Web Development, App Development',
+                'keywords' => 'design, development, branding, marketing, web, print, developer, branding, marketing, web design, web development, graphic design, frontend developer, frontend development, dc, virginia, maryland, digital design, print design, logos, web applications, web apps, user experience, ux, ui, web developer, graphic designer, user centered, javascript, wordpress, css, html, git, angularjs, node, php, adobe creative suite, photoshop, illustrator, indesign, website templates, templates, business templates, flyers, corporate flyers, booklet design, booklets, visual, roadmaps, logos, invitations, frontend developer/graphic designer, website, printdesign'
             ],
             'summary' => [
                 'enabled' => true,
