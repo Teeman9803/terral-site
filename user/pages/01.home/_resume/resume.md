@@ -10,6 +10,6 @@ sections:
                 info: null
                 date: null
                 description: null
-                skills: [{ name: 'Adobe Creative Suite', level: 85 }, { name: Javascript, level: 85 }, { name: Wordpress, level: 70 }, { name: CSS, level: 90 }, { name: Html, level: 90 }, { name: GIT, level: 80 }, { name: AngularJS, level: 80 }, { name: Node, level: 60 }, { name: PHP, level: 60 }]
+                skills: [{ name: 'Adobe Creative Suite', level: 90 }, { name: Javascript, level: 90 }, { name: Wordpress, level: 80 }, { name: CSS, level: 90 }, { name: Html, level: 90 }, { name: GIT, level: 85 }, { name: AngularJS, level: 90 }, { name: Node, level: 80 }, { name: MongoDB, level: 70 },  { name: PHP, level: 75 }]
 ---
 
