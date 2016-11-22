@@ -32,7 +32,7 @@ portfolio:
     -
         title: 'MMTI Website'
         description: Presentation
-        img: MMTI-Website-Portfolio.jpg
+        img: MMTI-Web-Portfolio.jpg
         content: 'Website design for Mission Medical Training Institute'
         tags: 'webdesign, templates, websitedevelopment'
         details: 'https://www.behance.net/gallery/45120689/MMTI-Landing-Page'
