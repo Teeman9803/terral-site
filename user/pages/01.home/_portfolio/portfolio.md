@@ -30,12 +30,12 @@ portfolio:
         tags: 'webdesign, templates, websitedevelopment'
         details: 'https://www.behance.net/gallery/40737577/Website-Template'
     -
-        title: 'Contractors Resource Center'
+        title: 'MMTI Website'
         description: Presentation
-        img: CRC-Portfolio.jpg
-        content: 'Website design for Contractors Resource Center'
+        img: MMTI-Website-Portfolio.jpg
+        content: 'Website design for Mission Medical Training Institute'
         tags: 'webdesign, templates, websitedevelopment'
-        details: 'https://www.behance.net/gallery/40737549/Website-Design'
+        details: 'https://www.behance.net/gallery/45120689/MMTI-Landing-Page'
     -
         title: 'Tulane University'
         description: 'Graphic Design'

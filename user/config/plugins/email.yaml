@@ -1,13 +1,16 @@
 enabled: true
 from: tldesignsprintandweb@gmail.com
+from_name: '{{form.value.name}}'
 to: tldesignsprintandweb@gmail.com
+to_name: 'Terral Lewis'
 mailer:
   engine: mail
   smtp:
-    server: localhost
+    server: smtp.google.com
     port: 25
     encryption: none
-    user: ''
-    password: ''
+    user: teeman
+    password: Allcity1
   sendmail:
-    bin: '/usr/sbin/sendmail'
+    bin: /usr/sbin/sendmail
+content_type: text/html
