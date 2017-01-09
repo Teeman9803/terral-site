@@ -9,7 +9,7 @@ mailer:
     server: smtp.gmail.com
     port: 25
     encryption: ssl
-    user: tldesignsprintandweb
+    user: tldesignsprintandweb@gmail.com
     password: tldesigns
   sendmail:
     bin: /usr/sbin/sendmail
