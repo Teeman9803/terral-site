@@ -6,11 +6,11 @@ to_name: 'Terral Lewis'
 mailer:
   engine: smtp
   smtp:
-    server: smtp.google.com
+    server: smtp.gmail.com
     port: 25
     encryption: none
     user: tldesignsprintandweb@gmail.com
-    password: tldesigns
+    password: Allcity1
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
