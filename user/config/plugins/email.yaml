@@ -4,13 +4,13 @@ from_name: '{{form.value.name}}'
 to: tldesignsprintandweb@gmail.com
 to_name: 'Terral Lewis'
 mailer:
-  engine: mail
+  engine: smtp
   smtp:
     server: smtp.google.com
     port: 25
     encryption: none
-    user: teeman
-    password: Allcity1
+    user: tldesignsprintandweb@gmail.com
+    password: tldesigns
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
