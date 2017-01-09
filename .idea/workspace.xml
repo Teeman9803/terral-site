@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="29c5a266-04c3-4635-9e04-acfbee8acdbd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/42d6518440f8b6a35782091155105f60.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/42d6518440f8b6a35782091155105f60.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/b15755774c937b5d751e40e65de499dc.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/b15755774c937b5d751e40e65de499dc.yaml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/gpm/36/5b61303437363635363833643937313763666630346434316530343633653662335d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/36/5b61303437363635363833643937313763666630346434316530343633653662335d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/gpm/b8/5b35393835393333313939633766333236356564386533343835356634346436345d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/b8/5b35393835393333313939633766333236356564386533343835356634346436345d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/gpm/e6/5b62323661353135356261633566336463396261363863616466323932393737655d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/cache/gpm/e6/5b62323661353135356261633566336463396261363863616466323932393737655d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/config/plugins/email.yaml" afterPath="$PROJECT_DIR$/user/config/plugins/email.yaml" />
     </list>
     <ignored path="terrallewis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -239,12 +246,12 @@
       <workItem from="1472205786542" duration="606000" />
       <workItem from="1483920244313" duration="36000" />
       <workItem from="1483920327499" duration="350000" />
-      <workItem from="1483921612735" duration="190000" />
+      <workItem from="1483921612735" duration="294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10126000" />
+    <option name="totallyTimeSpent" value="10230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
