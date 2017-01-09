@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="29c5a266-04c3-4635-9e04-acfbee8acdbd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/42d6518440f8b6a35782091155105f60.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/42d6518440f8b6a35782091155105f60.yaml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/compiled/files/b15755774c937b5d751e40e65de499dc.yaml.php" afterPath="$PROJECT_DIR$/cache/compiled/files/b15755774c937b5d751e40e65de499dc.yaml.php" />
     </list>
     <ignored path="terrallewis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -242,12 +239,12 @@
       <workItem from="1472205786542" duration="606000" />
       <workItem from="1483920244313" duration="36000" />
       <workItem from="1483920327499" duration="350000" />
-      <workItem from="1483921612735" duration="507000" />
+      <workItem from="1483921612735" duration="666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10443000" />
+    <option name="totallyTimeSpent" value="10602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />

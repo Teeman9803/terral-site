@@ -7,10 +7,10 @@ mailer:
   engine: smtp
   smtp:
     server: smtp.gmail.com
-    port: 25
+    port: 465
     encryption: ssl
     user: tldesignsprintandweb@gmail.com
-    password: tldesigns
+    password: Allcity1
   sendmail:
     bin: /usr/sbin/sendmail
-content_type: text/html
+content_type: text/plain
