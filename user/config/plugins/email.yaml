@@ -7,7 +7,7 @@ mailer:
   engine: smtp
   smtp:
     server: smtp.gmail.com
-    port: 25
+    port: 465
     encryption: ssl
     user: tldesignsprintandweb@gmail.com
     password: Allcity1
