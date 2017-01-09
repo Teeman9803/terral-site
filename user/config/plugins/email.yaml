@@ -6,7 +6,7 @@ to_name: 'Terral Lewis'
 mailer:
   engine: smtp
   smtp:
-    server: 'ssl://smtp.gmail.com'
+    server: smtp.gmail.com
     port: 25
     encryption: ssl
     user: tldesignsprintandweb@gmail.com
