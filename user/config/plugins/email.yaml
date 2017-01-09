@@ -8,7 +8,7 @@ mailer:
   smtp:
     server: smtp.gmail.com
     port: 25
-    encryption: none
+    encryption: ssl
     user: tldesignsprintandweb@gmail.com
     password: Allcity1
   sendmail:
