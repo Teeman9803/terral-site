@@ -1,5 +1,5 @@
 enabled: true
-from: tldesignsprintandweb@gmail.com
+from: '{{form.value.name}}'
 from_name: '{{form.value.name}}'
 to: tldesignsprintandweb@gmail.com
 to_name: 'Terral Lewis'
@@ -10,7 +10,7 @@ mailer:
     port: 465
     encryption: ssl
     user: tldesignsprintandweb@gmail.com
-    password: Allcity1
+    password: tldesigns
   sendmail:
     bin: /usr/sbin/sendmail
-content_type: text/plain
+content_type: text/html
