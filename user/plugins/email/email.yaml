@@ -4,11 +4,11 @@ from_name: "{{form.value.name}}"
 to: tldesignsprintandweb@gmail.com
 to_name: Terral Lewis
 mailer:
-  engine: mail
+  engine: smtp
   smtp:
-    server: localhost
-    port: 25
-    encryption: none
+    server: smtp.gmail.com
+    port: 465
+    encryption: ssl
     user: tldesignsprintandweb@gmail.com
     password: tldesigns
   sendmail:
