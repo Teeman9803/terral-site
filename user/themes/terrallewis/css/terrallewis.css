@@ -161,6 +161,9 @@ header .scrolldown a:hover {
 #portfolio .item-wrap .overlay {
 	border-radius: 50%;
 }
+#portfolio .mix {
+	display: none;
+}
 .portfolio-item .portfolio-item-meta {
 	margin-top: 30px;
 	text-align: center;
