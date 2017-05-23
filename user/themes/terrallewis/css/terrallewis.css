@@ -202,7 +202,7 @@ header .scrolldown a:hover {
 
 #portfolio .mixitup button {
 	background-color: #1b1b1b;
-	border-radius: 3px;
+	text-transform: uppercase;
 }
 
 #contact button.button:hover {
