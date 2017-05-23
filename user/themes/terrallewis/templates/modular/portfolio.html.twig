@@ -3,9 +3,14 @@
 	    <div class="row">
 	        <div class="twelve columns collapsed">
 	            {{ page.content }}
-	            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+				<div class="mixitup text-center controls">
+					<button type="button" class="filter" data-filter="all">All</button>
+					<button type="button" class="filter" data-filter=".web-design">Web</button>
+					<button type="button" class="filter" data-filter=".print-design">Print</button>
+				</div>
+	            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf container">
 	                {% for item in page.header.portfolio %}
-	                <div class="columns portfolio-item">
+	                <div class="columns portfolio-item mix {{ item.category }}">
 	                    <div class="item-wrap wow flipInX" data-wow-delay=".33s">
 	                        <a href="#modal-{{ loop.index }}" title="">
 	                            {{ page.media[item.img].cropZoom(215, 215).html() }}
