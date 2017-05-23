@@ -189,6 +189,10 @@ new WOW().init();
 	 /* Mixitup
 	  ------------------------------------------------------*/
 
-	 $('#portfolio-wrapper').mixItUp();
+	 $('#portfolio-wrapper').mixItUp({
+		 load : {
+			 filter : '.web-design'
+		 }
+	 });
 });
 
