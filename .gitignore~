@@ -2,9 +2,9 @@
 .sass-cache
 composer.json
 composer.lock
-cache/*
+cache/
 assets/*
-logs/*
+logs/
 images/*
 user/data/*
 user/accounts/*
@@ -26,6 +26,7 @@ system/*
 CHANGELOG.md
 CONTRIBUTING.md
 robots.txt
+node_modules/*
 
 # OS Generated
 .DS_Store*
