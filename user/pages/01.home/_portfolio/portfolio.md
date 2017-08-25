@@ -177,6 +177,22 @@ portfolio:
         category: print-design
         tags: 'graphicdesign, printdesign, logodesign, branding'
         details: 'https://www.behance.net/gallery/49807847/Baby-Shower-Invitation'
+    -
+        title: 'Hall of Fame Crest'
+        description: 'Graphic Design'
+        img: Gatlin-Hall-of-Fame.jpg
+        content: 'Hall of Fame Crest for Gatlin Family Reunion'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+        details: 'https://www.behance.net/gallery/56104783/Gatlin-Family-Reunion-Hall-of-Fame'
+    -
+        title: 'MVAK Edibles & Cultivation'
+        description: 'Graphic Design'
+        img: MVAK.jpg
+        content: 'Logo for MVAK Edibles & Cultivation'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+        details: 'https://www.behance.net/gallery/56104805/MVAK-Edibles-Cultivation'
 ---
 
 #Check Out Some of My Work.
