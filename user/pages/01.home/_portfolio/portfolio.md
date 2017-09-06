@@ -50,6 +50,45 @@ portfolio:
         tags: 'webdesign, templates, websitedevelopment'
         details: 'https://www.behance.net/gallery/40737549/Website-Design'
     -
+        title: 'MVAK Edibles & Cultivation'
+        description: 'Graphic Design'
+        img: MVAK.jpg
+        content: 'Logo for MVAK Edibles & Cultivation'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+        details: 'https://www.behance.net/gallery/56104805/MVAK-Edibles-Cultivation'
+    -
+        title: 'MYE Place Logo'
+        description: 'Graphic Design'
+        img: MYE-Place-Portfolio.jpg
+        content: 'Logo design for MYE Place Event and Banquet Hall'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+        details: 'https://www.behance.net/gallery/51015523/MYE-Place-Banquet-and-Event-Hall'
+    -
+        title: 'Hall of Fame Crest'
+        description: 'Graphic Design'
+        img: Gatlin-Hall-of-Fame.jpg
+        content: 'Hall of Fame Crest for Gatlin Family Reunion'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+        details: 'https://www.behance.net/gallery/56104783/Gatlin-Family-Reunion-Hall-of-Fame'
+    -
+        title: 'Sunshine Mobile Detailing and Car Wash Logo'
+        description: Logo
+        img: Sunshine_Portfolio.jpg
+        content: 'Logo design for Sunshine Mobile Detailing and Car Wash'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+        details: 'https://www.behance.net/gallery/20446641/Sunshine-Mobile-Detailing-and-Car-Wash'
+    -
+        title: 'J&R Cruise & Travel Logo'
+        description: Logo
+        img: J&R-Cruise-and-Travel-Logo-Portfolio.jpg
+        content: 'Logo design for J&R Cruise & Travel'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+    -
         title: 'Tulane University'
         description: 'Graphic Design'
         img: Tulane-Logo.jpg
@@ -66,14 +105,6 @@ portfolio:
         tags: 'graphicdesign, printdesign, logodesign, branding'
         details: 'https://www.behance.net/gallery/40737153/Logo'
     -
-        title: 'MYE Place Logo'
-        description: 'Graphic Design'
-        img: MYE-Place-Portfolio.jpg
-        content: 'Logo design for MYE Place Event and Banquet Hall'
-        category: print-design
-        tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/51015523/MYE-Place-Banquet-and-Event-Hall'
-    -
         title: 'MMTI Logo'
         description: 'Graphic Design'
         img: MMTI_Portfolio.jpg
@@ -81,14 +112,6 @@ portfolio:
         category: print-design
         tags: 'graphicdesign, printdesign, logodesign, branding'
         details: 'https://www.behance.net/gallery/43529665/Mission-Medical-Training-Institute'
-    -
-        title: 'Incredible Ideas'
-        description: Logo
-        img: Incredible-Ideas-Portfolio.jpg
-        content: 'Logo design for Incredible Ideas'
-        category: print-design
-        tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/46782479/Logo-for-Incredible-Ideas'
     -
         title: 'Terral Lewis Logo'
         description: Logo
@@ -98,46 +121,6 @@ portfolio:
         tags: 'graphicdesign, printdesign, logodesign, branding'
         details: 'https://www.behance.net/gallery/42150231/Terral-Lewis-Logo'
     -
-        title: 'Sunshine Mobile Detailing and Car Wash Logo'
-        description: Logo
-        img: Sunshine_Portfolio.jpg
-        content: 'Logo design for Sunshine Mobile Detailing and Car Wash'
-        category: print-design
-        tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/20446641/Sunshine-Mobile-Detailing-and-Car-Wash'
-    -
-        title: 'The Helping Lunchbox'
-        description: Logo
-        img: The_Helping_Lunchbox.jpg
-        content: 'Logo design for The Helping Lunchbox Initiative'
-        category: print-design
-        tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/40737195/Logo-Design'
-    -
-        title: 'A-1 Stucco'
-        description: 'Business Card/Logo'
-        img: ac-stucco-biz-card-back.png
-        content: 'Logo and business card design for A-1 Stucco'
-        category: print-design
-        tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/40737435/Logo-and-Business-Card-Design'
-    -
-        title: 'Incredible Ideas Business Cards'
-        description: 'Business Cards'
-        img: Incredible-Ideas-Biz-Cards-Portfolio.jpg
-        content: 'Business card design for Incredible Ideas'
-        category: print-design
-        tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/46867835/Incredible-Ideas-Business-Cards'
-    -
-        title: 'MMTI Business Cards'
-        description: 'Graphic Design'
-        img: MMTI_BusinessCards.jpg
-        content: 'Business Cards for Mission Medical Training Institute'
-        category: print-design
-        tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/45120797/MMTI-Business-Cards'
-    -
         title: 'Sleep Well Toolkit'
         description: Booklet
         img: SWTK-Portfolio.jpg
@@ -146,13 +129,13 @@ portfolio:
         tags: 'graphicdesign, printdesign, branding'
         details: 'https://www.behance.net/gallery/40737423/Sleep-Well-Toolkit-Booklet'
     -
-        title: 'Club Flyer'
-        description: Flyer
-        img: Club-Flyer.jpg
-        content: 'Club flyer concept for First Fridays'
+        title: 'Tailgate Party Poster'
+        description: Poster
+        img: Steelers_Ravens-Portfolio-01.jpg
+        content: 'Tailgate Party Poster Design'
         category: print-design
-        tags: 'graphicdesign, printdesign, flyerdesign'
-        details: 'https://www.behance.net/gallery/40737235/Flyer-Design'
+        tags: 'graphicdesign, printdesign, branding'
+        details: 'https://www.behance.net/gallery/56470945/Steelers-vs-Ravens-Tailgate-Party'
     -
         title: 'Party Invitation'
         description: 'Graphic Design'
@@ -178,21 +161,21 @@ portfolio:
         tags: 'graphicdesign, printdesign, logodesign, branding'
         details: 'https://www.behance.net/gallery/49807847/Baby-Shower-Invitation'
     -
-        title: 'Hall of Fame Crest'
-        description: 'Graphic Design'
-        img: Gatlin-Hall-of-Fame.jpg
-        content: 'Hall of Fame Crest for Gatlin Family Reunion'
+        title: 'Incredible Ideas Business Cards'
+        description: 'Business Cards'
+        img: Incredible-Ideas-Biz-Cards-Portfolio.jpg
+        content: 'Business card design for Incredible Ideas'
         category: print-design
         tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/56104783/Gatlin-Family-Reunion-Hall-of-Fame'
+        details: 'https://www.behance.net/gallery/46867835/Incredible-Ideas-Business-Cards'
     -
-        title: 'MVAK Edibles & Cultivation'
+        title: 'MMTI Business Cards'
         description: 'Graphic Design'
-        img: MVAK.jpg
-        content: 'Logo for MVAK Edibles & Cultivation'
+        img: MMTI_BusinessCards.jpg
+        content: 'Business Cards for Mission Medical Training Institute'
         category: print-design
         tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/56104805/MVAK-Edibles-Cultivation'
+        details: 'https://www.behance.net/gallery/45120797/MMTI-Business-Cards'
 ---
 
 #Check Out Some of My Work.
