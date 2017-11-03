@@ -50,6 +50,14 @@ portfolio:
         tags: 'webdesign, templates, websitedevelopment'
         details: 'https://www.behance.net/gallery/40737549/Website-Design'
     -
+        title: Link2Think
+        description: 'Graphic Design'
+        img: Link2Think-Logo-Portfolio-Cover.jpg
+        content: 'Logo for Link2Think Mentorship Program'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+        details: 'https://www.behance.net/gallery/58457009/Link2Think-Logo'
+    -
         title: 'MVAK Edibles & Cultivation'
         description: 'Graphic Design'
         img: MVAK.jpg
@@ -65,14 +73,6 @@ portfolio:
         category: print-design
         tags: 'graphicdesign, printdesign, logodesign, branding'
         details: 'https://www.behance.net/gallery/51015523/MYE-Place-Banquet-and-Event-Hall'
-    -
-        title: 'Link2Think Logo'
-        description: 'Graphic Design'
-        img: logo_final.jpg
-        content: 'Logo design for Link2Think Mentorship Program'
-        category: print-design
-        tags: 'graphicdesign, printdesign, logodesign, branding'
-        details: 'https://www.behance.net/gallery/58457009/Link2ThinkLogo'
     -
         title: 'Hall of Fame Crest'
         description: 'Graphic Design'
