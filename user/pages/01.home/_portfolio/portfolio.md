@@ -66,6 +66,14 @@ portfolio:
         tags: 'graphicdesign, printdesign, logodesign, branding'
         details: 'https://www.behance.net/gallery/51015523/MYE-Place-Banquet-and-Event-Hall'
     -
+        title: 'Link2Think Logo'
+        description: 'Graphic Design'
+        img: logo_final.jpg
+        content: 'Logo design for Link2Think Mentorship Program'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+        details: 'https://www.behance.net/gallery/58457009/Link2ThinkLogo'
+    -
         title: 'Hall of Fame Crest'
         description: 'Graphic Design'
         img: Gatlin-Hall-of-Fame.jpg
@@ -84,7 +92,7 @@ portfolio:
     -
         title: 'J&R Cruise & Travel Logo'
         description: Logo
-        img: J&R-Cruise-and-Travel-Logo-Portfolio.jpg
+        img: 'J&R-Cruise-and-Travel-Logo-Portfolio.jpg'
         content: 'Logo design for J&R Cruise & Travel'
         category: print-design
         tags: 'graphicdesign, printdesign, logodesign, branding'
