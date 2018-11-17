@@ -75,6 +75,14 @@ class EmailPlugin extends Plugin
                 }
 
                 // Send e-mail
+
+                $honeypot = $_POST['firstname'];
+
+                if (!empty($honeypot)) {
+                    trigger_error("Email could not be sent");
+                    return;
+                }
+
                 $this->email->send($message);
                 break;
         }

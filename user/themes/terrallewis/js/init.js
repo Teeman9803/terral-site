@@ -145,9 +145,10 @@
       var contactEmail = $('#contactForm #contactEmail').val();
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
+      var honeypot = $('#contactForm #firstname').val();
 
       var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
+               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage + '&contactFirstName' + honeypot;
 
       $.ajax({
 
@@ -157,7 +158,7 @@
 	      success: function(msg) {
 
             // Message was sent
-            if (msg == 'OK') {
+            if (msg == 'OK' && honeypot.length === 0) {
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();

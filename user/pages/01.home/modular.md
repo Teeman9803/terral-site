@@ -5,6 +5,10 @@ form:
     name: contact-form
     action: /home
     fields:
+        - name: firstname
+          placeholder: Enter your name
+          autocomplete: on        
+          type: text
         - name: name
           label: Name
           placeholder: Enter your name

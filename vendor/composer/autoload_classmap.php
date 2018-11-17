@@ -233,7 +233,7 @@ return array(
     'Minify_ClosureCompiler' => $vendorDir . '/mrclay/minify/min/lib/Minify/ClosureCompiler.php',
     'Minify_ClosureCompiler_Exception' => $vendorDir . '/mrclay/minify/min/lib/Minify/ClosureCompiler.php',
     'Minify_CommentPreserver' => $vendorDir . '/mrclay/minify/min/lib/Minify/CommentPreserver.php',
-    'Minify_Controller_Base' => $vendorDir . '/mrclay/minify/min/lib/Minify/Controller/Base.php',
+    'Minify_Controller_Base' => $vendorDir . '/mrclay/minify/min/lib/Minify/Controller/BaseModel.php',
     'Minify_Controller_Files' => $vendorDir . '/mrclay/minify/min/lib/Minify/Controller/Files.php',
     'Minify_Controller_Groups' => $vendorDir . '/mrclay/minify/min/lib/Minify/Controller/Groups.php',
     'Minify_Controller_MinApp' => $vendorDir . '/mrclay/minify/min/lib/Minify/Controller/MinApp.php',
