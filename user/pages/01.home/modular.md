@@ -6,7 +6,9 @@ form:
     action: /home
     fields:
         - name: firstname
-          type: honeypot
+          placeholder: Enter your name
+          autocomplete: on        
+          type: text
         - name: name
           label: Name
           placeholder: Enter your name

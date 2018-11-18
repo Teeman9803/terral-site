@@ -266,3 +266,7 @@ footer a:focus {
 #go-top a:hover {
 	background: #f06000;
 }
+
+.hide-field {
+	display: none;
+}
