@@ -10,6 +10,45 @@ portfolio:
         category: web-design
         details: 'https://www.behance.net/gallery/40737097/Keenan-Lewis-Website'
     -
+        title: 'Test Communications'
+        description: Presentation
+        img: Test-Website-Portfolio.png
+        content: 'Website design for Test Communications'
+        category: web-design
+        tags: 'webdesign, templates, websitedevelopment'
+        details: 'http://www.testcomm.com'
+    -
+        title: 'Retired Chicks'
+        description: Presentation
+        img: Retired-Chicks-Portfolio.png
+        content: 'Website design for Retired Chicks, LLC'
+        category: web-design
+        tags: 'webdesign, templates, websitedevelopment'
+    -
+        title: 'Tickled Pink Group Trips'
+        description: Presentation
+        img: Tickled-Pink-Portfolio.png
+        content: 'Website design for Tickled Pink Travel Agency'
+        category: web-design
+        tags: 'webdesign, templates, websitedevelopment'
+        details: 'http://www.tickledpinkgrouptrips.com'
+    -
+        title: 'MMTI Website'
+        description: Presentation
+        img: MMTI-Web-Portfolio.jpg
+        content: 'Website design for Mission Medical Training Institute'
+        category: web-design
+        tags: 'webdesign, templates, websitedevelopment'
+        details: 'http://missionmedicaltraining.com'
+    -
+        title: 'Business Template'
+        description: Presentation
+        img: Business-Template-Portfolio-New.png
+        content: 'Website design for Test Communications'
+        category: web-design
+        tags: 'webdesign, templates, websitedevelopment'
+        details: 'http://teeman9803.github.io/businessonepage'
+    -
         title: 'Outlook International'
         description: 'Website Development'
         img: Outlook-Portfolio.jpg
@@ -33,14 +72,6 @@ portfolio:
         category: web-design
         tags: 'webdesign, templates, websitedevelopment'
         details: 'https://www.behance.net/gallery/40737577/Website-Template'
-    -
-        title: 'MMTI Website'
-        description: Presentation
-        img: MMTI-Web-Portfolio.jpg
-        content: 'Website design for Mission Medical Training Institute'
-        category: web-design
-        tags: 'webdesign, templates, websitedevelopment'
-        details: 'https://www.behance.net/gallery/45120689/MMTI-Landing-Page'
     -
         title: 'Contractors Resource Center'
         description: Presentation

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1477727685,
-    'checksum' => '6ef411bd3030d7a08164def617e470e1',
+    'timestamp' => 1543153817,
+    'checksum' => '45feaf240e5c9429f39e3c1e6a0d69d2',
     'files' => [
         'user/config' => [
             'media' => [
@@ -11,7 +11,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1456431616
+                'modified' => 1487518906
             ],
             'plugins/form' => [
                 'file' => 'user/config/plugins/form.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1459003800
+                'modified' => 1543153733
             ]
         ],
         'system/config' => [
@@ -59,7 +59,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1470272030
+                'modified' => 1487522230
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -67,7 +67,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1457897030
+                'modified' => 1487515183
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -113,18 +113,18 @@ return [
             ],
             'email' => [
                 'enabled' => true,
-                'from' => 'your@email.here',
+                'from' => '{{form.value.name}}',
                 'from_name' => '{{form.value.name}}',
-                'to' => 'your@email.here',
+                'to' => 'tldesignsprintandweb@gmail.com',
                 'to_name' => 'Terral Lewis',
                 'mailer' => [
-                    'engine' => 'mail',
+                    'engine' => 'smtp',
                     'smtp' => [
-                        'server' => 'localhost',
-                        'port' => 25,
-                        'encryption' => 'none',
-                        'user' => '',
-                        'password' => ''
+                        'server' => 'smtp.gmail.com',
+                        'port' => 465,
+                        'encryption' => 'ssl',
+                        'user' => 'tldesignsprintandweb@gmail.com',
+                        'password' => 'tldesigns'
                     ],
                     'sendmail' => [
                         'bin' => '/usr/sbin/sendmail'
