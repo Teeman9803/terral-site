@@ -128,6 +128,20 @@ portfolio:
         category: print-design
         tags: 'graphicdesign, printdesign, logodesign, branding'
     -
+        title: 'New Beginnings Learning & Resource Center Logo'
+        description: Logo
+        img: New-Beginnings-Portfolio.png
+        content: 'Logo design for New Beginning Learning & Resource Center'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+    -
+        title: 'DuVin Wines Logo/Label'
+        description: Logo
+        img: DuVin-Portfolio.png
+        content: 'Label design for DuVin Wines'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+    -
         title: 'Tulane University'
         description: 'Graphic Design'
         img: Tulane-Logo.jpg
@@ -200,6 +214,14 @@ portfolio:
         tags: 'graphicdesign, printdesign, logodesign, branding'
         details: 'https://www.behance.net/gallery/49807847/Baby-Shower-Invitation'
     -
+        title: 'Ninjago Party Invitation'
+        description: 'Graphic Design'
+        img: TK-Party-Flyer-Portfolio.jpg
+        content: 'Ninjago Party Invitation'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
+        details: ''
+    -
         title: 'Incredible Ideas Business Cards'
         description: 'Business Cards'
         img: Incredible-Ideas-Biz-Cards-Portfolio.jpg
@@ -215,6 +237,13 @@ portfolio:
         category: print-design
         tags: 'graphicdesign, printdesign, logodesign, branding'
         details: 'https://www.behance.net/gallery/45120797/MMTI-Business-Cards'
+    -
+        title: 'Fly Solo T-Shirt Design'
+        description: 'Graphic Design'
+        img: Fly-Solo-Portfolio.png
+        content: 'T-Shirt Design for Solo Mission Clothing'
+        category: print-design
+        tags: 'graphicdesign, printdesign, logodesign, branding'
 ---
 
 #Check Out Some of My Work.
